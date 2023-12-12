@@ -7,5 +7,5 @@ export default new Store({
   email: "gustjd9610@gmail.com",
   blog: "https://velog.io/@gustjd3834",
   github: "https://github.com/hyunsunglimm",
-  repository: "https://github.com/ParkYoungWoong/vanillajs-movie-app",
+  repository: "https://github.com/hyunsunglimm/vanillajs-movie-app",
 });

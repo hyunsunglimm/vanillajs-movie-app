@@ -791,14 +791,15 @@ class TheFooter extends (0, _heropy.Component) {
     }
     render() {
         const { github, repository } = (0, _aboutDefault.default).state;
+        console.log(github, repository);
         this.el.innerHTML = /* html */ `
       <div>
-        <a href="${github}" target="_blank">
+        <a href="${repository}" target="_blank">
           GitHub Repository
         </a>
       </div>
       <div>
-        <a href="${repository}" target="_blank">
+        <a href="${github}" target="_blank">
           ${new Date().getFullYear()}
           ABGAUM
         </a>
@@ -818,7 +819,7 @@ exports.default = new (0, _heropy.Store)({
     email: "gustjd9610@gmail.com",
     blog: "https://velog.io/@gustjd3834",
     github: "https://github.com/hyunsunglimm",
-    repository: "https://github.com/ParkYoungWoong/vanillajs-movie-app"
+    repository: "https://github.com/hyunsunglimm/vanillajs-movie-app"
 });
 
 },{"../core/heropy":"57bZf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3L9mC":[function(require,module,exports) {
