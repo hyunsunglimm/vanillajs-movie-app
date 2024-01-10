@@ -1,6 +1,15 @@
 import { Store } from "../core/heropy";
 
-export default new Store({
+interface State {
+  photo: string;
+  name: string;
+  email: string;
+  blog: string;
+  github: string;
+  repository: string;
+}
+
+export default new Store<State>({
   photo:
     "https://velog.velcdn.com/images/gustjd3834/profile/4b318994-bf6a-4a9d-be2e-b31ea52ddfb2/image.png",
   name: "ABGAUM / LimHyunSung",
